@@ -1,83 +1,47 @@
-# ⚡ AutoMarkLost Checker v1
+==========================================================
+        AUTOMARK LOST CHECKER v1 - OFFICIAL README
+==========================================================
 
-> **The Ultimate Multi-Threaded Account Verification Tool.**
+[🚀 OVERVIEW]
+Automark Lost is a high-speed, multi-threaded automation 
+tool designed to verify and secure accounts via specified 
+portals. It features instant results for valid hits.
+(Note: This tool checks ZZ Checker's automarklost hits only.)
 
-**AutoMarkLost** is a premium automation tool designed for efficiency and speed. Built with Python and Selenium, it leverages robust multi-threading to check and secure accounts via specific portals instantly.
+[⚙️ SYSTEM REQUIREMENTS]
+- Windows 10/11
+- Google Chrome (Latest Version)
+- Active Internet Connection
 
-> ⚠️ **IMPORTANT NOTE**
-> This tool is strictly optimized to support **ZZ Checker's automarklost hits ONLY**. Do not use it for other account types.
+[📂 FILE STRUCTURE]
+1. main.exe        : The main executable file.
+2. accounts.txt    : Your input file (Add accounts here).
+3. SuccessHits.txt : All valid/secured hits are saved here.
+4. error.txt       : Technical logs for troubleshooting.
 
----
+[📥 INPUT CONFIGURATION]
+Open 'accounts.txt' and add your data in the following format:
+flarecloudtest@gmail.com:flarecloudtest | recovery email: flarecloud@checker.zzxgp.me:flarecloud! | recovery date: 0/00/0000 | login site: https://mail.checker.zzxgp.me/
 
-## 🚀 Key Features
+[⚡ USAGE INSTRUCTIONS]
+1. Open the application:
+   Double-click main.exe
 
-*   **⚡ Multi-Threaded Engine**: Automatically optimizes performance with parallel processing (Default: 2 Threads).
-*   **🛡️ Smart Security**: Intelligent scanning for "Good News" emails while filtering out stale/cancelled accounts.
-*   **👻 Headless & Stealth**: Runs in the background (headless mode) with anti-detection headers and incognito contexts.
-*   **🔒 Secure & Private**: No data is stored externally; everything runs locally on your machine.
-*   **📂 Instant Logs**: Success hits are instantly saved to your local file system (`SuccessHits.txt`).
+2. Thread Count:
+   By default, the tool runs with 2 threads for optimal stability.
+   No manual input required.
+   
+3. Troubleshooting:
+   If the tool fails to start or crashes, double-click 'start.bat'. 
+   This will verify and install all necessary system requirements.
 
----
+[🛡️ SECURITY FEATURES]
+- Incognito/Private Browsing: Every session is 100% clean.
+- Headless Mode: Works silently in the background.
+- Secured Engine: High reliability on every check.
+- 100% Safe: This tool is safe to use. However, if you have privacy concerns, we recommend running it inside a Virtual Machine (VM).
 
-## ⚙️ System Requirements
-
-*   **OS**: Windows 10 / 11
-*   **Browser**: Google Chrome (Latest Version)
-*   **Network**: Active Internet Connection
-
----
-
-## 📂 File Structure
-
-| File Name | Description |
-| :--- | :--- |
-| `main.exe` | The main executable application. |
-| `accounts.txt` | Input file for your combo list (`email:password`). |
-| `SuccessHits.txt` | Where valid/secured hits are saved. |
-| `error.txt` | Technical logs for troubleshooting. |
-| `start.bat` | Dependency installer and troubleshooter. |
-
----
-
-## 🛠️ How To Use
-
-### 1. Prepare Your Data
-Open `accounts.txt` and paste your accounts in the standard format:
-```text
-email:password
-```
-
-### 2. Run the Tool
-Double-click **`main.exe`** to launch the checker.
-*   The tool will automatically start checking with 2 threads.
-*   Monitor the console for live progress.
-
-### 3. Get Results
-*   ✅ **Success hits** are saved to `SuccessHits.txt`.
-*   ❌ **Failed hits** are logged in the console.
-
----
-
-## 🔧 Troubleshooting
-
-**Does the tool crash or close immediately?**
-1.  Run `start.bat`.
-2.  This script will automatically check for Python, upgrade pip, and install all necessary dependencies/requirements.
-3.  Once finished, it will launch the tool for you.
-
-> **🛡️ Security Tip**: While this tool is 100% safe, users prioritizing maximum privacy are encouraged to run it inside a **Virtual Machine (VM)** or sandbox environment.
-
----
-
-## 📨 Support & Contact
-
-Need help? Found a bug? Want to request a feature?
-Reach out to the developer directly.
-
-> **👤 Developed by: Blaze**
->
-> **💬 Telegram:** **[@blazeejod](https://t.me/blazeejod)**
-
----
-
-_**Disclaimer**: This tool is intended for educational purposes and authorized security testing only. The developer is not responsible for any misuse._
+[👤 CREDITS]
+Made By : Blaze
+Telegram: @blazeejod
+==========================================================
