@@ -1,47 +1,48 @@
-==========================================================
-        AUTOMARK LOST CHECKER v1 - OFFICIAL README
-==========================================================
+# ⚡ AutoMarkLost Checker v1
 
-[🚀 OVERVIEW]
-Automark Lost is a high-speed, multi-threaded automation 
-tool designed to verify and secure accounts via specified 
-portals. It features instant results for valid hits.
-(Note: This tool checks ZZ Checker's automarklost hits only.)
+> **The Ultimate Multi-Threaded Account Verification Tool.**
 
-[⚙️ SYSTEM REQUIREMENTS]
-- Windows 10/11
-- Google Chrome (Latest Version)
-- Active Internet Connection
+**AutoMarkLost** is a premium automation tool designed for efficiency and speed. Built with Python and Selenium, it leverages robust multi-threading to check and secure accounts via specific portals instantly. **This tool only supports ZZ Checker's automarklost hits.** Features a 100% automated workflow for checking accounts rapidly.
 
-[📂 FILE STRUCTURE]
-1. start.exe        : The main executable file.
-2. accounts.txt    : Your input file (Add accounts here).
-3. SuccessHits.txt : All valid/secured hits are saved here.
-4. error.txt       : Technical logs for troubleshooting.
+---
 
-[📥 INPUT CONFIGURATION]
-Open 'accounts.txt' and add your data in the following format:
-flarecloudtest@gmail.com:flarecloudtest | recovery email: flarecloud@checker.zzxgp.me:flarecloud! | recovery date: 0/00/0000 | login site: https://mail.checker.zzxgp.me/
+## 🚀 Key Features
 
-[⚡ USAGE INSTRUCTIONS]
-1. Open the application:
-   Double-click start.exe
+*   **⚡ Multi-Threaded Engine**: Automatically optimizes performance with parallel processing (Default: 2 Threads).
+*   **🛡️ Smart Security**: Intelligent scanning for "Good News" emails while filtering out stale/cancelled accounts.
+*   **👻 Headless & Stealth**: Runs in the background (headless mode) with anti-detection headers and incognito contexts.
+*   **🔒 Secure & Private**: No data is stored externally; everything runs locally on your machine.
+*   **📂 Instant Logs**: Success hits are instantly saved to your local file system.
+*   **🎯 Exclusive Support**: Optimized specifically for **ZZ Checker's automarklost hits only** for maximum compatibility.
 
-2. Thread Count:
-   By default, the tool runs with 2 threads for optimal stability.
-   No manual input required.
-   
-3. Troubleshooting:
-   If the tool fails to start or crashes, double-click 'start.bat'. 
-   This will verify and install all necessary system requirements.
+> **🛡️ Security Note**: While this tool is 100% safe, users prioritizing maximum security are encouraged to run it inside a **Virtual Machine (VM)** or sandbox environment.
 
-[🛡️ SECURITY FEATURES]
-- Incognito/Private Browsing: Every session is 100% clean.
-- Headless Mode: Works silently in the background.
-- Secured Engine: High reliability on every check.
-- 100% Safe: This tool is safe to use. However, if you have privacy concerns, we recommend running it inside a Virtual Machine (VM).
+---
 
-[👤 CREDITS]
-Made By : Blaze
-Telegram: @blazeejod
-==========================================================
+## 🛠️ How To Use
+
+1.  **Prepare Accounts**:
+    *   Open `accounts.txt`.
+    *   Paste your combos in `email:password` format.
+2.  **Run the Tool**:
+    *   Double-click `main.exe` to launch the checker.
+    *   *(If you encounter errors, run `start.bat` first to fix dependencies.)*
+3.  **Watch it Fly**:
+    *   The tool will automatically start checking with 2 threads.
+    *   Monitor the console for live progress.
+4.  **Get Results**:
+    *   ✅ **Success hits** are saved to `SuccessHits.txt`.
+    *   ❌ **Failed hits** are logged in the console.
+
+---
+
+## 📨 Support & Contact
+
+Need help? Found a bug? Want to request a feature?
+Reach out to the developer directly.
+
+> **👤 Developed by: Blaze**
+>
+> **💬 Telegram:** **[@blazeejod](https://t.me/blazeejod)**
+
+_Authorization: This tool is intended for educational purposes and authorized testing only._
